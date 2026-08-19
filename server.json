@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/receita_federal_radar-mcp",
+  "title": "Receita Federal: Radar (Habilitação Comércio Exterior)",
+  "description": "Receita Federal: Radar (Habilitação Comércio Exterior), official-source lookup. Platform-hosted, pay",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/receita_federal_radar-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_receita_federal_radar"
+    }
+  ]
+}
